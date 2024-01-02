@@ -142,7 +142,11 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">ANSIC << <a href='ANSIC.html'>Previous</a> <a href='a1.c.html'>Next</a> >> a1.c<br /><h1>a2.c</h1><br />ANSIC << <a href='ANSIC.html'>Previous</a> <a href='a1.c.html'>Next</a> >> a1.c</div>
+    <div id="tipue_search_content">ANSIC << <a href='ANSIC.html'>Previous</a> <a href='a1.c.html'>Next</a> >> a1.c<br /><h1>a2.c</h1>
+<p>#include &lt;stdio.h&gt;</p>
+<p>int main(int argc, char** argv) {<br/> // Check for C standard version<br/> #if __STDC_VERSION__ &gt;= 201710L<br/> printf("We are using C18!\n");<br/> #elif __STDC_VERSION__ &gt;= 201112L<br/> printf("We are using C11!\n");<br/> #elif __STDC_VERSION__ &gt;= 199901L<br/> printf("We are using C99!\n");<br/> #else<br/> printf("We are using C89/C90!\n");<br/> #endif</p>
+<p>// Indicate successful execution<br/> return 0;<br/>}</p>
+<p><img alt="" height="126" src="./../images/螢幕擷取畫面 2024-01-02 143449.png" width="400"/></p><br />ANSIC << <a href='ANSIC.html'>Previous</a> <a href='a1.c.html'>Next</a> >> a1.c</div>
         
     <!-- footer -->
       <div class="container">
